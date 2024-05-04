@@ -269,12 +269,13 @@ li {
     width: 100%;
   }
   .image_text .image_content h2 {
-    font-size: 90px;
+    font-size: 60px;
   }
 }
 /* list of items */
 .list_items {
   width: 100%;
+  margin-bottom: 20px;
 }
 .list_items .item_heading {
   display: flex;
@@ -384,18 +385,20 @@ li {
 }
 
 @media (max-width: 900px) {
+
   .list_items .item_container {
     flex-wrap: wrap;
     gap: 1px;
+    padding: 0px 0px;
   }
-  .list_items .item_container .items_list_1 {
+  .list_items .item_container .items_list_1 .items_content{
     width: 100%;
   }
-  .list_items .item_container .items_list_2 {
+  .list_items .item_container .items_list_2 .items_content{
     width: 100%;
   }
   .list_items .item_heading h2 {
-    font-size: 90px;
+    font-size: 60px;
   }
 }
 /* newsletter */
